@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic Brand</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 5px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            padding-left: 5px;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 17px 15px;
+            font-size: medium;
+            font-weight: 900;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover {
+            color: yellow;
+            /*background-color: rgb(166, 161, 161);*/
+        }
+
+        .navbar li a::selection {
+            /*color: yellow;*/
+            background-color: rgb(166, 161, 161);
+        }
+
+        .search {
+            float: right;
+            color: white;
+            margin: 14px;
+            padding-right: 0px;
+        }
+
+        .navbar input {
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 3px 4px;
+            width: 130px;
+        }
+
+        .image {
+            width: 15px;
+            padding-top: 19px;
+            float: right;
+            padding-right: 12px;
+        }
+
+        .logo {
+            width: 35px;
+            padding-top: 9px;
+            float: left;
+            padding-left: 1px;
+        }
+
+        .div1 {
+            display: grid;
+            grid-template-columns: 50% 70%;
+            column-gap: 10px;
+            row-gap: 40px;
+            /*grid-template-rows: 15% 15% 15% 15% 15% 15% 15% 15% 15%;*/
+        }
+
+        .heading {
+            text-align: center;
+            border: 1px solid black;
+            background-color: black;
+            color: wheat;
+        }
+
+        .strongg {
+            display: flex;
+            justify-content: center;
+            background-color: yellow;
+            font-size: x-large;
+            padding-left: 2px;
+        }
+
+        .product {
+            background-color: rgb(109, 223, 216);
+            border: 1px solid black;
+            font-size: 20px;
+        }
+
+        .collection {
+            width: 600px;
+            padding-left: 50px;
+        }
+
+        p {
+            width: 600px;
+            padding-top: 17px;
+
+        }
+
+        .thank {
+            margin-left: 30%;
+            width: 500px;
+            display: flex;
+            justify-content: left;
+        }
+
+        .visit {
+            color: rgb(255, 0, 0);
+            font-size: large;
+            padding-left: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul id="MenuItems">
+                <img src="https://media.istockphoto.com/id/1299871741/vector/key.jpg?s=612x612&w=0&k=20&c=cOg7hwe0lw54170oBVXOs3jhE450OsZ-a0NE4eqp1kU="
+                    alt="Error loading image" class="logo">
+
+                <li> <a href="#" id="clickMe" onClick="window.location.reload()">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="homepage.html">Contact us</a></li>
+                <li> <a href="login.html">Login</a></li>
+
+                <img src="https://cdn-icons-png.flaticon.com/128/11741/11741045.png" id="image"
+                    alt="Error loading image" class="image">
+
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Find in page">
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1 class="heading">Shoes:Our Pride</h1>
+
+        <div class="div1">
+            <img src="https://t4.ftcdn.net/jpg/04/10/65/53/240_F_410655365_MjietOoPZAMAdqA74M6EXqRL3F8g5dHH.jpg" alt=""
+                style="padding-top: 15px;" class="collection">
+            <p> <strong class="strongg">Nike Jordan 1 Mid Black Chile Red White shoes</strong>
+                <br>
+                <strong class="product"><strong
+                        style="background-color:rgb(49, 32, 12); color:rgb(251, 247, 241)">Product details:</strong>
+                    <br>
+                    <strong style="background-color: rgb(255, 255, 255);">The Air Jordan 1 Mid 'Chile Red' stands out as
+                        a bold and vibrant addition to the iconic Air Jordan lineup. This sneaker features a striking
+                        colorway that combines a fiery red with classic black accents, creating a visually arresting
+                        look that demands attention. The upper is crafted from a mix of leather and synthetic materials,
+                        ensuring durability and comfort for everyday wear.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color:rgb(33, 7, 7);color:white">Properties:</strong>
+                    <br>1.PF edition is designed to fit wide for play on outdoor courts.
+                    <br>2.Colour Shown: White/Black
+                    <br>3.Style: FJ6458-100
+                    <br>4.Country/Region of Origin: Vietnam
+                    <br>MRP: ₹22,999.00
+
+                </strong>
+            </p>
+
+            <p style="padding-left:30px"> <strong class="strongg">Nike Air Force 1</strong>
+                <br>
+                <strong class="product"><strong style="background-color:rgb(21, 3, 3);color:white">Product
+                        details:</strong>
+                    <br>
+                    <strong style="background-color: white;">The radiance lives on in the Nike Air Force 1 '07, the
+                        basketball original that puts a fresh spin on what you know best: durably stitched overlays,
+                        clean finishes and the perfect amount of flash to make you shine.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(43, 9, 9); color:white">Properties:</strong>
+                    <br>1.Padded collar
+                    <br>2.Perforations on the toe
+                    <br>3.Foam midsole
+                    <br>4.Style: FQ4296-100
+                    <br>5.Country/Region of Origin: Vietnam
+                    <br>MRP: ₹ 11,295.00
+                </strong>
+            </p>
+            <img src="https://t4.ftcdn.net/jpg/04/79/11/23/240_F_479112366_dku6Ufwd9OVnRB3AZxonMgRzuZYeTTYY.jpg" alt=""
+                class="collection">
+
+            <img src="https://t3.ftcdn.net/jpg/04/79/14/06/240_F_479140608_7xjG5HfKnYSDoEErrGYaSDIVzNPPxArw.jpg" alt=""
+                class="collection">
+            <p> <strong class="strongg">Nike dunk low Syracuse sneakers</strong>
+                <br>
+                <strong class="product"><strong
+                        style="background-color:rgb(49, 32, 12); color:rgb(251, 247, 241) ;">Product details:</strong>
+                    <br>
+                    <strong style="background-color:white">The Nike Dunk Low is an easy score for your wardrobe. This
+                        '80s icon returns with a special design inspired by the ways we move. Reflective design details
+                        and waves of bright colours help your moves pop on and off the dance floor while lightweight
+                        cushioning and a grippy outsole offer comfort that lasts.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(35, 10, 10);color:white">Properties:</strong>
+                    <br>1.Classic laces
+                    <br>2.Colour Shown: White/Saffron
+                    <br>3.Perforations on the toe
+                    <br>4.Style: FQ7674-100
+                    <br>5.Country/Region of Origin: Vietnam
+                    <br>MRP:Rs. 21,999.00
+                </strong>
+            </p>
+
+            <p style="padding-left:30px"> <strong class="strongg">Nike Dunk Low Retro SE</strong>
+                <br>
+                <strong class="product"><strong style="background-color:rgb(21, 3, 3);color:white">Product
+                        details:</strong>
+                    <br>
+                    <strong style="background-color: white;">Created for the hardwood but taken to the streets, the '80s
+                        b-ball icon returns with embroidered details, contrast stitching and throwback hoops flair. Its
+                        padded, low-cut collar lets you take your game anywhere—in comfort.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(43, 9, 9); color:white">Properties:</strong>
+                    <br>1.Padded collar
+                    <br>2.Perforations on the toe
+                    <br>3.Color shown:Summit White/Summit White/Industrial Blue/Industrial Blue
+                    <br>4.Style: DV0834-101
+                    <br>5.Country/Region of Origin: Vietnam
+                    <br>MRP : ₹ 9,695.00
+                </strong>
+            </p>
+
+            <img src="https://t4.ftcdn.net/jpg/06/13/76/85/240_F_613768553_lzD7oRQSgDdnHDbo9B8wxbGFVXdsvrNn.jpg" alt=""
+                class="collection">
+
+            <img src="https://t4.ftcdn.net/jpg/04/73/22/89/240_F_473228947_tl0y95DrjBkE94FO1SPQwjszzd2F4MpN.jpg" alt=""
+                class="collection">
+            <p> <strong class="strongg">Nike Jordan 1 retro high OG Bordeaux new sneakers street wear</strong>
+                <br>
+                <strong class="product"><strong
+                        style="background-color:rgb(49, 32, 12); color:rgb(251, 247, 241) ;">Product details:</strong>
+                    <br>
+                    <strong style="background-color:white">The Air Jordan 1 Retro High remakes the classic sneaker,
+                        giving you a fresh look with a familiar feel. Premium materials with new colours and textures
+                        give modern expression to an all-time favourite.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(35, 10, 10);color:white">Properties:</strong>
+                    <br>1.Wings logo stamped on the collar
+                    <br>2.Colour Shown: White/Team Red
+                    <br>3.Stitched-down Swoosh logo
+                    <br>4.Style: DZ5485-160
+                    <br>5.Country/Region of Origin: China
+                    <br>MRP : ₹ 16,995.00
+                </strong>
+            </p>
+
+            <p style="padding-left:30px"> <strong class="strongg">Air Jordan 1 Low Court Purple</strong>
+                <br>
+                <strong class="product"><strong style="background-color:rgb(21, 3, 3);color:white">Product
+                        details:</strong>
+                    <br>
+                    <strong style="background-color: white;">The Air Jordan 1 Low Court Purple comes with color-blocking
+                        similar to the Jordan 1 High Court Purple White. The Court Purple features distinct purple
+                        overlays and a white leather base that gives it a timeless appearance. Extra details that
+                        enhance its look include a black nylon tongue, black laces, and a black leather Swoosh on the
+                        medial panels.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(43, 9, 9); color:white">Properties:</strong>
+                    <br>1.Rubber Sole
+                    <br>2.Perforations on the toe
+                    <br>3.Color shown:COURT PURPLE/BLACK-WHITE
+                    <br>4.Style:553558-500
+                    <br>5.Country/Region of Origin: Vietnam
+                    <br>MRP : ₹ 21,999.00
+                </strong>
+            </p>
+            <img src="https://t4.ftcdn.net/jpg/04/73/22/87/240_F_473228744_BQolpzdgDY1va9hk3MZOGREJaTlbf8WJ.jpg" alt=""
+                class="collection">
+
+            <img src="https://t4.ftcdn.net/jpg/05/09/54/77/240_F_509547793_KotQWFzufepx4nqKsqRuDafH0UmFFt44.jpg" alt=""
+                class="collection">
+            <p> <strong class="strongg">Nike Dunk Low Retro PRM</strong>
+                <br>
+                <strong class="product"><strong
+                        style="background-color:rgb(49, 32, 12); color:rgb(251, 247, 241) ;">Product details:</strong>
+                    <br>
+                    <strong style="background-color:white">The '80s b-ball icon returns with crisp leather and throwback
+                        hoops flair. Channelling vintage style back onto the streets, its padded, low-cut collar lets
+                        you take your game anywhere—in comfort.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(35, 10, 10);color:white">Properties:</strong>
+                    <br>1.Leather upper softens and gains vintage character with wear.
+                    <br>2.Colour Shown: Dark Smoke Grey/White/Barely Green
+                    <br>3.Foam midsole offers lightweight, responsive cushioning.
+                    <br>4.Style: FZ1670-001
+                    <br>5.Country/Region of Origin: Vietnam
+                    <br>MRP : ₹ 10 795.00
+                </strong>
+            </p>
+
+            <p style="padding-left:30px"> <strong class="strongg">Flying white sneaker Nike</strong>
+                <br>
+                <strong class="product"><strong style="background-color:rgb(21, 3, 3);color:white">Product
+                        details:</strong>
+                    <br>
+                    <strong style="background-color: white;">Score major style points with this legendary hoops classic.
+                        Crossing hardwood comfort with off-court flair, this AF-1 pairs smooth overlays with subtle pops
+                        of colour for nothing-but-net style. Hidden Air units and durable, era-echoing '80s construction
+                        add the comfort you know and love.</strong>
+                    <br>
+                    <br>
+                    <strong style="background-color: rgb(43, 9, 9); color:white">Properties:</strong>
+                    <br>1.Foam in midsole
+                    <br>2.Perforations on the toe
+                    <br>3.Colour Shown: White/University Red/White
+                    <br>4.Style: FZ7187-100
+                    <br>5.Country/Region of Origin: Vietnam
+                    <br>MRP : ₹ 21,999.00
+                </strong>
+            </p>
+            <img src="https://t3.ftcdn.net/jpg/05/87/11/04/240_F_587110417_29Sb6vYoyc9ibTT998sCTNdulZVBc3EU.jpg" alt=""
+                class="collection">
+
+
+        </div>
+    </div>
+    <div>
+        <a href="https://www.nike.com/in/"> <img
+                src="https://t3.ftcdn.net/jpg/03/15/18/78/240_F_315187892_0mGLXIBt5CqGBbaI2oXtOoz814PDAfu1.jpg" alt=""
+                class="thank"></a>
+    </div>
+    <a href="https://www.nike.com/in/" class="visit">Click here to visit more</a>
+
+</body>
+
+</html>
+<script>
+    /*let body=document.querySelector("body");
+    let div=document.createElement("div");
+    div.style.border="1px solid red"
+    div.innerText="hello"
+    let div1=document.createElement("div");
+    div.append(div1)
+    div1.innerText="hi"
+    div1.style.display="grid"
+    div1.style.gridTemplate="repeat(2,1fr)";
+    
+
+    body.append(div);
+
+    function dontGo(event){
+        event.preventDefault();
+    }
+    document.getElementById("clickMe").addEventListener("click",dontGo)
+*/
+    function push() {
+        alert("You are in home page!")
+    }
+    let btn = document.getElementById("clickMe");
+    btn.addEventListener("click", push)
+
+
+
+</script>

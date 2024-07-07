@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: bottom 50px;
+            padding-top: 20px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+        }
+
+        .form {
+            display: flex;
+            justify-content: center;
+            /*align-items: center;*/
+            text-align: left;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding-bottom :50px;
+            padding-top: 20px;
+            font-size: large;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+        .div1{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(247, 247, 247)">
+
+    <h1>Detail Form</h1>
+    <form action="contact-us.php">
+
+        <div class="div1">
+
+            <div class="form">
+                <!-- <div style="background-color: rgb(212, 251, 251);"> -->
+                <div>
+                    Name: <input type="text" name="myname" placeholder="Enter your name" required>
+                </div>
+                <br>
+                <div>
+                    Email: <input type="text" name="myemail" placeholder="Enter your email-id">
+                </div>
+                <br>
+                <div>
+                    Date of Birth: <input type="date" name="mydate" required>
+                </div>
+                <br>
+                <div>
+                    <label for="gender" required>Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="select" selected>Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    Nationality:   Indian <input type="radio" name="mynational">
+                    &nbsp;Others <input type="radio" name="mynational">
+                </div>
+                <br>
+                <div>
+                    Mobile Number: <input type="Number" name="mynumber" pattern="[0-9]">
+                </div>
+                <br>
+                <div>
+                    Password: <input type="password" name="mypw" required>
+                </div>
+                <br>
+                <label for="wbu">Write about yourself:</label>
+                <br>
+                <div>
+                    <textarea name="mytext" cols="50" rows="10"></textarea>
+                </div>
+                <br>
+                <div style="padding-left:150px">
+                    <input type="submit" value="Submit Now">
+                    <br>
+                </div>
+                <br>
+                <div style="padding-left:150px">
+                    <br>
+                    <input type="reset" value="Reset Now">
+                </div>
+            </div>
+
+            <img src="https://media.istockphoto.com/id/1299871741/vector/key.jpg?s=612x612&w=0&k=20&c=cOg7hwe0lw54170oBVXOs3jhE450OsZ-a0NE4eqp1kU=" alt="">
+    </form>
+    </div>
+    </div>
+</body>
+
+</html>
